@@ -1,0 +1,494 @@
+/*FONTS*/
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('../fonts/LibreBaskerville/LibreBaskerville-Italic.woff2') format('woff2'),
+        url('../fonts/LibreBaskerville/LibreBaskerville-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('../fonts/LibreBaskerville/LibreBaskerville-Bold.woff2') format('woff2'),
+        url('../fonts/LibreBaskerville/LibreBaskerville-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('../fonts/LibreBaskerville/LibreBaskerville-Regular.woff2') format('woff2'),
+        url('../fonts/LibreBaskerville/LibreBaskerville-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans/IBMPlexSans-Medium.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans/IBMPlexSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans/IBMPlexSans-Bold.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans/IBMPlexSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans/IBMPlexSans.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans/IBMPlexSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans/IBMPlexSans-Light.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans/IBMPlexSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans/IBMPlexSans-BoldItalic.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans/IBMPlexSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans/IBMPlexSans-Italic.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans/IBMPlexSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans/IBMPlexSans-MediumItalic.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans/IBMPlexSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans/IBMPlexSans-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans/IBMPlexSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans/IBMPlexSans-LightItalic.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans/IBMPlexSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Prestige';
+    src: url('../fonts/Prestige/Prestige.woff2') format('woff2'),
+        url('../fonts/Prestige/Prestige.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+:root {
+    --white: #FFFFFF;
+    --dark-green: #3d9fac;
+    --sea-blue: #3d7fac;
+    --light-gray: #E3E3E3;
+    --font-family-ibm: 'IBM Plex Sans';
+    --font-family-libre: 'Libre Baskerville';
+    --font-family-prestige: 'Prestige';
+}
+
+body {
+    font-family: var(--font-family-libre);
+}
+
+.header-canvas{
+    position: absolute;
+    padding: 1.2rem;
+    z-index: 100;
+    width: 100%;
+    
+}
+.headerVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 88vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+.background-photo {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.logo {    
+    text-align: center;
+    margin-bottom: 1.5rem;
+    
+}
+
+/*Responsive Navbar with animated hamburger menu*/
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 8vh;
+    z-index: 1000;
+}
+
+.nav-links{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a{
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+    padding-top: 25px;
+}
+
+.header-canvas nav ul.nav-links li a:hover,
+.header-canvas nav ul.nav-links li.active a {
+    background: url(../images/general/white-tree-accent.svg) top 3px center no-repeat;
+}
+
+.burger{
+    display: none;
+    /*position: absolute; */
+    cursor: pointer;
+    
+}
+
+.burger div{    
+    width: 25px;
+    height: 3px;
+    background-color: var(--white);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/*Language Switcher*/
+.lang-dropdown{
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+}
+
+.lang-dropdown ul {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--sea-blue);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: none;
+    
+}
+
+.lang-dropdown ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;   
+    
+}
+
+.lang-dropdown ul li a {
+    width: 3.5rem;
+    display: block;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.emoji{
+    font-size: 1rem;
+    vertical-align: middle;
+    line-height: 2;
+}
+
+.selected-lang { 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    line-height: 2;
+    width: 3.5rem;
+    font-size: 0.8rem;
+    color: var(--white);
+
+}
+
+.lang-dropdown:hover ul{
+    display: block;
+}
+
+/*Text in the Header*/
+.header-text{
+    display: block;
+    position: relative;
+    z-index: -1;
+    text-align: center;
+    color: var(--white);
+    padding: 20px;
+}
+
+.header-text h1{
+    font-family: var(--font-family-libre);
+    margin: 20px 0 22px 0;
+    font-size: 3.5rem;
+    font-weight: normal;
+    font-style: italic;
+    
+}
+
+.header-text h2{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: normal;
+    letter-spacing: 0.06rem;
+}
+
+.header-text h3{
+    font-family: var(--font-family-libre);
+    font-size: 1.6rem;
+    font-weight: normal;
+    letter-spacing: 0.06rem;
+    font-style: italic;
+}
+
+/* Header checkin form*/
+.checkin-form-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 50%;
+    width: 80vw;
+    border-radius: 10px;
+    background-color: rgba(22, 100, 110, 0.4);
+    padding: 20px;
+    color: var(--white);
+}
+
+.checkin-form-box h3 {
+    font-size: 1rem;
+    margin: 0;
+    font-family: var(--font-family-ibm);
+    line-height: 1.4rem;
+    width: 140px;
+}
+
+.checkin-form-box .form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.checkin-form-box .form-group label {
+    font-family: var(--font-family-ibm);
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.checkin-form-box .form-group input {
+    font-weight: 500;
+    font-family: var(--font-family-ibm);
+    font-size: medium;
+    padding-left: 6px;
+    width: 170px;
+    border-radius: 2px;
+    border: 1px solid var(--light-gray);
+    outline: none;
+}
+
+.checkin-form-box button {
+    padding: 5px 20px;
+    background: linear-gradient(to right,rgb(26, 192, 184) 10%, 50%, rgb(15, 101, 172) 90%);;
+    color: white;
+    font-family: var(--font-family-ibm);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1024px){
+   .nav-links{
+       width: 100%;
+   }
+}
+
+@media screen and (max-width:1000px){
+    body{
+       overflow-x: hidden;
+    }
+    .nav-links{
+       position: absolute;
+       left: 0;
+       height: 70vh;
+       top: 50px;
+       background-color: var(--sea-blue);
+       display: flex;
+       flex-direction: column;  
+       text-align: center;
+       width: 70%;   
+       transform: translateX(-100%);
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+
+    .header-canvas nav ul.nav-links li a:hover,
+    .header-canvas nav ul.nav-links li.active a {
+        background: none;
+    }
+
+    .checkin-form-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+      }
+
+    .checkin-form-box h3 {       
+        width: 60vw;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .checkin-form-box .form-group {
+        display: flex;
+        flex-direction: row;
+        margin: 0.5rem;
+    }
+
+    .checkin-form-box .form-group label {       
+        font-size: 1rem;
+        width: 20vw;
+        margin-bottom: 0;
+        margin-right: 0.3rem;
+    }
+
+    .checkin-form-box .form-group input {      
+        width: 35vw;
+        border-radius: 2px;      
+    }
+    
+}
+
+@media screen and (max-width:768px){
+
+    .background-photo{
+        display: block;
+    }
+
+    .headerVideo{
+        display: none;
+    }
+    
+    .header-text h1{
+        font-size: 2rem;
+    }
+
+    .header-text h2{
+        font-size: 1rem;
+    }
+
+    .header-text h3{
+        font-size: 1rem;
+    }
+    
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+/*Waves*/
+.wave-top {
+    position: relative;
+    z-index: 30;
+    margin-top: 75vh;
+    width: 100%;
+    height: 120px;
+    background: url(../images/general/wave-top.svg) top center no-repeat;
+    background-size: cover;
+}
+
+.wave-bottom {
+    position: relative;
+    z-index: 30;
+    margin-bottom: -140px;
+    width: 100%;
+    height: 120px;
+    background: url(../images/general/wave-bottom.svg) bottom center no-repeat;
+    background-size: cover;
+}

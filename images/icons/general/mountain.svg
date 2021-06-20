@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="56.044" viewBox="0 0 60 56.044">
+  <g id="mountain" transform="translate(0 0.044)">
+    <g id="Layer_1" data-name="Layer 1">
+      <path id="Path_371" data-name="Path 371" d="M31.56,32.37l5.18-2.24L39.15,33l1.97-2.81,4.61.97" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_372" data-name="Path 372" d="M25.7,42.99,17,29,1,55H19" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_373" data-name="Path 373" d="M59,55,39,19,19,55Z" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_374" data-name="Path 374" d="M12.08,37l3.03,1.58,2.58-1.92,4.31.5" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_375" data-name="Path 375" d="M21.83,7.4a4.89,4.89,0,0,1,1.58.26" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_376" data-name="Path 376" d="M6.58,7.67A4.66,4.66,0,0,1,8.17,7.4" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_377" data-name="Path 377" d="M11.75,4.88a3.28,3.28,0,0,1,.88,1" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_378" data-name="Path 378" d="M23.4,7.66V7A6,6,0,0,0,11.77,4.89,3.21,3.21,0,0,0,6.57,7.4a2.44,2.44,0,0,0,0,.27A4.8,4.8,0,0,0,8.17,17H21.83A4.8,4.8,0,0,0,23.4,7.66Z" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

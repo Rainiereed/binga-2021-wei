@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.527" height="48.458" viewBox="0 0 37.527 48.458">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.54" y1="0.024" x2="0.518" y2="1.049" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3cc8ab"/>
+      <stop offset="1" stop-color="#39c1ad"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_125" data-name="Group 125" transform="translate(-239.012 -4989.989)">
+    <path id="Path_369" data-name="Path 369" d="M297.116,4952.349h23.067v4.911l-2.275,4.353-1.02,13.564H300.647l-.863-14.072-2.354-3.845Z" transform="translate(-45.991 62)" fill="url(#linear-gradient)"/>
+    <g id="Group_124" data-name="Group 124" transform="translate(239.789 4991)">
+      <g id="Group_121" data-name="Group 121" transform="translate(0 3.469)">
+        <path id="Path_365" data-name="Path 365" d="M318.7,501.528a8.512,8.512,0,1,1,8.972-10.451" transform="translate(-310.875 -484.529)" fill="none" stroke="#2699b5" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_89" data-name="Line 89" x1="4.113" y2="3.174" transform="translate(10.766 3.601)" fill="none" stroke="#2699b5" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_90" data-name="Line 90" x1="5.089" y2="0.885" transform="translate(0.632 8.999)" fill="none" stroke="#2699b5" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_91" data-name="Line 91" x1="2.629" y2="4.399" transform="translate(4.431 10.945)" fill="none" stroke="#2699b5" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_92" data-name="Line 92" x1="3.887" y1="3.293" transform="translate(2.449 3.376)" fill="none" stroke="#2699b5" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_93" data-name="Line 93" y1="5.094" x2="0.047" transform="translate(8.539 0.554)" fill="none" stroke="#2699b5" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+      <g id="Group_122" data-name="Group 122" transform="translate(10.834 13.227)">
+        <path id="Path_366" data-name="Path 366" d="M327,499.049l.615,15.58,1.923,3.654.961,14.236h8.079" transform="translate(-326.997 -499.049)" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_367" data-name="Path 367" d="M356.552,499.049l-.614,15.58-1.924,3.654-.961,14.236h-8.941" transform="translate(-332.611 -499.049)" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <line id="Line_94" data-name="Line 94" x2="23.252" transform="translate(11.179 22.893)" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Path_368" data-name="Path 368" d="M350.348,501.959V483l7.029-3.633" transform="translate(-323.822 -479.366)" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <g id="Group_123" data-name="Group 123" transform="translate(18.047 30.251)">
+        <line id="Line_95" data-name="Line 95" x1="0.394" y1="12.321" transform="translate(0 0.054)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_96" data-name="Line 96" y1="12.321" x2="0.393" transform="translate(9.123 0.054)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Line_97" data-name="Line 97" y2="12.361" transform="translate(4.758)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+      <line id="Line_98" data-name="Line 98" x2="9.406" transform="translate(26.594 13.21)" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="Line_99" data-name="Line 99" x2="13.715" transform="translate(9.562 13.21)" fill="none" stroke="#2699b5" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="Line_100" data-name="Line 100" x2="9.766" transform="translate(9.562 13.21)" fill="none" stroke="#2699b5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
