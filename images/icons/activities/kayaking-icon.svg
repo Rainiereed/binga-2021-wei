@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="27.345" height="44" viewBox="0 0 27.345 44">
   <g id="kayaking-icon" transform="translate(-134.58 -2968.576)">
-    <path id="Path_202" data-name="Path 202" d="M137.029,3001.438a1.449,1.449,0,0,1-1.449-1.449v-3.62a1.449,1.449,0,0,1,1.449-1.449h0a1.449,1.449,0,0,1,1.448,1.449v3.62a1.449,1.449,0,0,1-1.448,1.449Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line id="Line_12" data-name="Line 12" y2="16.655" transform="translate(137.029 2978.265)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path id="Path_203" data-name="Path 203" d="M159.477,2978.265a1.448,1.448,0,0,1,1.448,1.448v3.621a1.448,1.448,0,0,1-1.448,1.448h0a1.448,1.448,0,0,1-1.448-1.448v-3.621a1.448,1.448,0,0,1,1.448-1.448Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line id="Line_13" data-name="Line 13" y1="16.655" transform="translate(159.477 2984.782)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path id="Path_204" data-name="Path 204" d="M155.132,2981.162v18.827c0,6.4-3.08,11.587-6.879,11.587h0c-3.8,0-6.88-5.188-6.88-11.587v-18.827c0-6.4,3.08-11.586,6.88-11.586h0C152.052,2969.576,155.132,2974.763,155.132,2981.162Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path id="Path_205" data-name="Path 205" d="M151.692,2981.162v18.827c0,3.2-1.54,5.793-3.439,5.793h0c-1.9,0-3.44-2.593-3.44-5.793v-18.827c0-3.2,1.54-5.793,3.44-5.793h0C150.152,2975.369,151.692,2977.962,151.692,2981.162Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line id="Line_14" data-name="Line 14" x2="6.879" transform="translate(144.813 2994.196)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line id="Line_15" data-name="Line 15" x2="6.879" transform="translate(144.813 2986.955)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_202" data-name="Path 202" d="M137.029,3001.438a1.449,1.449,0,0,1-1.449-1.449v-3.62a1.449,1.449,0,0,1,1.449-1.449h0a1.449,1.449,0,0,1,1.448,1.449v3.62a1.449,1.449,0,0,1-1.448,1.449Z" fill="none" stroke="#505070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_12" data-name="Line 12" y2="16.655" transform="translate(137.029 2978.265)" fill="none" stroke="#505070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_203" data-name="Path 203" d="M159.477,2978.265a1.448,1.448,0,0,1,1.448,1.448v3.621a1.448,1.448,0,0,1-1.448,1.448h0a1.448,1.448,0,0,1-1.448-1.448v-3.621a1.448,1.448,0,0,1,1.448-1.448Z" fill="none" stroke="#505070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_13" data-name="Line 13" y1="16.655" transform="translate(159.477 2984.782)" fill="none" stroke="#505070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_204" data-name="Path 204" d="M155.132,2981.162v18.827c0,6.4-3.08,11.587-6.879,11.587h0c-3.8,0-6.88-5.188-6.88-11.587v-18.827c0-6.4,3.08-11.586,6.88-11.586h0C152.052,2969.576,155.132,2974.763,155.132,2981.162Z" fill="none" stroke="#505070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_205" data-name="Path 205" d="M151.692,2981.162v18.827c0,3.2-1.54,5.793-3.439,5.793h0c-1.9,0-3.44-2.593-3.44-5.793v-18.827c0-3.2,1.54-5.793,3.44-5.793h0C150.152,2975.369,151.692,2977.962,151.692,2981.162Z" fill="none" stroke="#505070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_14" data-name="Line 14" x2="6.879" transform="translate(144.813 2994.196)" fill="none" stroke="#505070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_15" data-name="Line 15" x2="6.879" transform="translate(144.813 2986.955)" fill="none" stroke="#505070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </g>
 </svg>
