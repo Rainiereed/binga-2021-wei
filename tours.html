@@ -64,7 +64,7 @@
                     <h3>Check All Tours</h3>
                     <div class="form-group">
                         <label for="guests">Guests</label>
-                        <input type="number" placeholder="Enter number" name="guests">
+                        <input type="number" name="guests">
                     </div>
                     <div class="form-group">
                         <label for="check-in">Date Start</label>
@@ -99,17 +99,18 @@
     <section>
         <div>
             <div class="wave-top"></div>
-            <div class="line-symbol">
 
-                <div class="line-symbol">
-                    <img src="images/icons/general/anchor.svg" alt="" draggable="false" />
-                    <span class="line blue"></span>
-                </div>
-                <h1 class="title-style">Let's Go!</h1>
+            <!--<div class="title-style">
+
+                <h1>Let's Go!</h1>
+            </div>-->
+            <div class="line-symbol">
+                <h1 >Let's Go!</h1>
+                <span class="line"></span>
             </div>
         </div>
 
-        <div>
+        <div class="text-container">
             <p class="text-style">
                 At Binga Beach we go beyond regular hotels and resorts by providing an extraordinary array of adventure
                 activities. As much as we love lounging on the beach, we’re here to push our own boundaries, to really
@@ -132,11 +133,11 @@
 
         <div class="line-symbol">
             <img src="images/icons/general/anchor.svg" alt="anchor" draggable="false" />
-            <span class="line blue"></span>
+            <span class="line"></span>
         </div>
     </section>
 
-
+    <!-- Tours -->
     <section>
         <div class="flex-container">
             <div class="tours-sidenav">
@@ -181,6 +182,9 @@
                         <p>Surfing</p>
                     </a>
                 </div>
+                <div class="wave-symbol">
+                    <img src="images/icons/general/wave.svg" alt="wave" draggable="false" />
+                </div>
             </div>
             <div class="tour-item-container">
                 <div class="tour-item" id="kayaking">
@@ -202,7 +206,7 @@
                 </div>
                 </br>
                 <div class="line-symbol" id="stand-up-paddleboarding">
-                    <div class="line blue"></div>
+                    <div class="divide-line"></div>
                 </div>
 
                 <div class="tour-item">
@@ -223,7 +227,7 @@
                 </div>
                 </br>
                 <div class="line-symbol" id="beach-lounging">
-                    <div class="line blue"></div>
+                    <div class="divide-line"></div>
                 </div>
 
                 <div class="tour-item">
@@ -242,7 +246,7 @@
                 </div>
                 </br>
                 <div class="line-symbol" id="mountain-biking">
-                    <div class="line blue"></div>
+                    <div class="divide-line"></div>
                 </div>
 
                 <div class="tour-item">
@@ -263,7 +267,7 @@
                 </div>
                 </br>
                 <div class="line-symbol" id="island-hopping-tour">
-                    <div class="line blue"></div>
+                    <div class="divide-line"></div>
                 </div>
 
                 <div class="tour-item">
@@ -311,10 +315,10 @@
                 </div>
                 </br>
                 <div class="line-symbol" id="snorkeling">
-                    <div class="line blue"></div>
+                    <div class="divide-line"></div>
                 </div>
 
-                <div class="tour-item" >
+                <div class="tour-item">
                     <div class="tour-text">
                         <h3>Snorkeling</h3>
                         <p class="text-style">For most folks we recommend the Island Hopping Tour above, as you enjoy
@@ -347,11 +351,11 @@
                 </div>
                 </br>
                 <div class="line-symbol" id="scuba-diving">
-                    <div class="line blue"></div>
+                    <div class="divide-line"></div>
                 </div>
 
                 <div class="tour-item">
-                    <div class="tour-text" >
+                    <div class="tour-text">
                         <h3>Scuba Diving</h3>
                         <p class="text-style">For most folks we recommend the Island Hopping Tour above, as you enjoy
                             the comfort of the big boat, get lunch included, and get a lot of remote gorgeous relaxing
@@ -384,6 +388,7 @@
             </div>
 
         </div>
+        <img id="back-to-top-btn" src="images/icons/general/back-to-up.svg" onclick="topFunction()"></img>
 
     </section>
 
@@ -396,6 +401,7 @@
     </script>
 
     <script src="js/sidenav.js"></script>
+    <script src="js/backToTop.js"></script>
 
 </body>
 
