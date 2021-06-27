@@ -705,6 +705,9 @@ button:hover {
     font-size: 0.9rem;
     padding: 1rem 4rem 1rem 4rem;
     line-height: 1.3rem;
+    font-style: italic;
+    font-weight: 250;
+    letter-spacing: 0.02rem;
 }
 
 .flex-container .tour-item .tour-image-book .service-icon-grid {
