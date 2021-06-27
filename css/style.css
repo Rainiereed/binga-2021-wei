@@ -152,7 +152,7 @@ body {
 .headerVideo {
     object-fit: cover;
     width: 100vw;
-    height: 88vh;
+    height: 94vh;
     top: 0;
     left: 0;
 }
@@ -191,6 +191,7 @@ nav {
 .nav-links li a {
     color: var(--white);
     text-decoration: none;
+    /*text-transform: uppercase;*/
     letter-spacing: 0.1rem;
     font-size: 1.1rem;
     padding-top: 25px;
@@ -703,6 +704,7 @@ button:hover {
 .flex-container .tour-item .tour-image-book .text-book {
     font-size: 0.9rem;
     padding: 1rem 4rem 1rem 4rem;
+    line-height: 1.3rem;
 }
 
 .flex-container .tour-item .tour-image-book .service-icon-grid {
