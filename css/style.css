@@ -774,6 +774,7 @@ button:hover {
     margin-bottom: 0.4rem;
     text-indent: 0.5rem;
     margin: 1rem;
+    /*font-style: italic;*/
 }
 
 .flex-container .tours-sidenav .tours-link {
@@ -786,7 +787,6 @@ button:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 .wave-symbol {
@@ -796,14 +796,12 @@ button:hover {
 
 .flex-container .tours-sidenav .tours-link a {
     text-decoration: none;
-
 }
 
 .flex-container .tours-sidenav .tours-link a img {
     height: 2rem;
     width: auto;
     flex: 20%;
-
 }
 
 .flex-container .tours-sidenav .tours-link a p {
